@@ -65,6 +65,8 @@ ul {
 
 .production-item {
   color: #555559;
+  overflow: hidden;
+
 }
 .production-img {
   display: inline-block;
@@ -98,13 +100,13 @@ ul {
 }
 
 .copyright {
-  margin: 0px;
-  display: inline-block;
+  margin: 0 0 0 50px;
+  display: inline;
   width: 50%;
   color: #555559;
 }
 .contacts {
-  margin: 0px;
+  margin: 0 0 0 260px;
   display: inline-block;
   width: 50%;
 }
@@ -117,3 +119,20 @@ ul {
   margin-right: 8px;
   border-right: 1px solid #555559;
 }
+
+img[src="images/hot-dog1.jpg"] {
+  float: right;
+}
+
+
+img[src="images/hot-dog2.jpg"] {
+  float: left;
+}
+
+img[src="images/hot-dog3.jpg"] {
+  float: right;
+}
+
+
+
+
